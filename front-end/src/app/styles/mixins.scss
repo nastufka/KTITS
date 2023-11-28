@@ -1,0 +1,71 @@
+@mixin font-default {
+  color: var(--sc-base-1);
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@mixin font-default-bold {
+  @include font-default;
+  font-weight: 800;
+}
+
+@mixin font-text {
+  @include font-default;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@mixin font-text-bold {
+  @include font-text;
+  font-weight: 800;
+}
+
+@mixin font-side {
+  @include font-default;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777777;
+}
+
+@mixin title-default {
+  font-weight: 800;
+}
+
+@mixin h1 {
+  @include title-default;
+  font-size: 50px;
+  line-height: 56px; 
+}
+
+@mixin h2 {
+  @include title-default;
+  font-size: 44px;
+  line-height: 48px;
+}
+
+@mixin h3 {
+  @include title-default;
+  font-size: 36px;
+  line-height: 40px; 
+}
+
+@mixin h4 {
+  @include title-default;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+@mixin h5 {
+  @include title-default;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@mixin h6 {
+  @include title-default;
+  font-size: 20px;
+  line-height: 24px;
+}

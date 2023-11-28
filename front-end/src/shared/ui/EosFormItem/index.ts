@@ -1,0 +1,1 @@
+export { default, type EosFormItemProps } from './EosFormItem.vue'

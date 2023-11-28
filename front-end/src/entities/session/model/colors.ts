@@ -1,0 +1,16 @@
+export default [
+  '#D88BBF',
+  '#FFCACA',
+  '#FFEACA',
+  '#CAFFF9',
+  '#CAFFCF',
+  '#79B099',
+  '#75B7F3',
+  '#9DC6EB',
+  '#FFB288',
+  '#FFCF88',
+  '#FF9E98',
+  '#9DC6EB',
+  '#C1B1FF',
+  '#E9BBFF',
+]

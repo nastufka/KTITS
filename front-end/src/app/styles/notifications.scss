@@ -1,0 +1,61 @@
+.eos-notification {
+  width: 462px;
+  color: var(--sc-base-1);
+  padding: 16px;
+
+  .ant-notification-notice-icon {
+    top: 21px;
+
+    svg {
+      height: 16px;
+      width: 16px;
+    }
+  }
+
+  .ant-notification-notice-message {
+    font-family: Manrope;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0 !important;
+    margin-left: 24px !important;
+    line-height: 28px;
+  }
+
+  .ant-notification-notice-description {
+    font-family: Manrope;
+    font-size: 17px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 24px !important;
+  }
+
+  &_success {
+    background-color: #E9F8F3;
+  }
+
+  &_error {
+    background-color: #FDEAE4;
+
+    .ant-notification-notice-icon path {
+      fill: #F45725;
+    }
+  }
+
+  &_info {
+    background-color: #EDF6FE;
+
+    .ant-notification-notice-icon path {
+      fill: #70B6F6;
+    }
+  }
+
+  &_warning {
+    background-color: #FFF8E0;
+
+    .ant-notification-notice-icon path {
+      fill: #FFC700;
+    }
+  }
+}
